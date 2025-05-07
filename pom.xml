@@ -40,6 +40,26 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>net.bytebuddy</groupId>
+			<artifactId>byte-buddy</artifactId>
+			<version>1.17.5</version> <!-- Check for new supported versions -->
+		</dependency>
+		<!-- Mockito Core -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>5.5.0</version> <!-- Latest stable version -->
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Mockito Inline -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-inline</artifactId>
+			<version>5.2.0</version> <!-- Latest available version -->
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -50,5 +70,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>

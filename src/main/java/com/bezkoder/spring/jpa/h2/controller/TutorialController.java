@@ -31,7 +31,7 @@ public class TutorialController {
 
   @GetMapping("/")
   public String home() {
-    return "Welcome to Spring Boot!";
+    return "Welcome to Spring Boot Tutorial by Chaheti!";
   }
 
 

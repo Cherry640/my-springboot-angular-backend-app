@@ -29,7 +29,10 @@ public class Tutorial {
     this.published = published;
   }
 
-  public long getId() {
+    public Tutorial(long l, String s, String s1, boolean b) {
+    }
+
+    public long getId() {
     return id;
   }
 
